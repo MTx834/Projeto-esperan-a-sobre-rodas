@@ -1,0 +1,136 @@
+
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+}
+
+
+/* NAV */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    width: 197px;
+    height: 143px;
+}
+
+.language {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-right: 80px;
+}
+
+.infoNav {
+
+    text-decoration: none;
+    margin-top: 1em;
+    margin-right: 10em;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+}
+
+a.infoNav:hover {
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.iconePerfil{
+    width: 2em;
+    margin-right: 50px;
+    border: none;
+}
+
+/* MAIN - FORM */
+
+.title {
+    display: block;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 0.5em;
+}
+
+.container {
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    width: 900px;
+}
+
+h1, .subTitulo {
+    margin-bottom: 5px;
+    display: flex;
+    justify-self: flex-start;
+    size: 24px;
+    font-family: "Catamaran", sans-serif;
+}
+.subTitulo{
+    color: #98959D;
+}
+
+.form-group {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2em;
+    padding-right: 8em;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 438px;
+    height: 28px;
+    padding: 10px;
+}
+
+.submit{
+    background-color: #1DB023;
+    color: black;
+    border-radius: 10px;
+    width: 361px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 8em;
+}
+
+.form1{
+    display: inline flex;
+}
+
+label{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 16px;
+}
+
